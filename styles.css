@@ -1,2 +1,90 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html
+{
+  font-size: 20px;
+  font-family: "Jim Nightshade", "cursive";
+}
+
+/*h1
+{
+    font-family: "Times New Roman", "Arial", "Helvetica", "Garamond", "sans-serif", "serif"
+
+}
+
+h2
+{
+    font-family: "Futura", "Century Gothic", "AppleGothic", "sans-serif";
+
+}*/
+
+header
+{
+  border-bottom-width: thick;
+  border-bottom-style: double;
+  border-bottom-color: red;
+
+}
+
+p
+{
+    font-family: "Lora", "Futura", "Century Gothic", "AppleGothic", "sans-serif";
+}
+
+.class-list
+{
+  list-style-type: square;
+
+}
+
+.item
+{
+  border-bottom-width: thick;
+  border-bottom-style: groove;
+  border-bottom-color: blue;
+
+}
+
+.odd
+{
+  background-color: black;
+  color: white;
+}
+
+#item1
+{
+  font-size: 30px;
+}
+
+#item2
+{
+  text-align: right;
+}
+
+.listedpadding /*positional style selector, you can put your own equation*/
+{
+  padding: 1em 3px 30px 5px;  /*  top    1em  padding  */
+                             /*  right  3px  padding  */
+                             /*  bottom 30px padding  */
+                             /*  left   5px  padding  */
+  background-color: grey;
+
+}
+
+li:nth-child(2n+1) /*positional style selector, you can put your own equation*/
+{
+  background-color: green;
+}
+
+.linkhover:hover
+{
+    text-decoration: none;
+}
+
+.linkhover2
+{
+  background-color: red;
+}
+
+.linkhover2:hover
+{
+    background-color: yellow;
+}

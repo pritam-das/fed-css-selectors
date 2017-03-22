@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>CSS Fundamentals</title>
-
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade|Lora" rel="stylesheet">
     <!-- Un-comment the following line to see what the document looks like with the CSS Reset applied -->
     <!-- <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
 
@@ -141,31 +142,31 @@
       </p>
 
       <ol>
-        <li>
+        <li class="listedpadding">
           <p>
             Style every item in this list with some <code>padding</code> and a
             <code>background-color</code> of grey
           </p>
         </li>
-        <li>
+        <li class="listedpadding">
           <p>
             Make sure that the list of subitems below isn't affected by the
             above style rules!
           </p>
         </li>
-        <li>
+        <li class="listedpadding">
           <p>
             Use the <code>:nth-child</code> pseudo-selector to turn the
             <code>background-color</code> of every odd list item green.
           </p>
         </li>
-        <li>
+        <li class="listedpadding">
           <p>
             Select this link by its title attribute and turn off the underline when it's hovered
-            <a href="https://bitmakerlabs.com/" title="Bitmaker">Bitmaker Labs</a>
+            <a class="linkhover" href="https://bitmakerlabs.com/" title="Bitmaker" >Bitmaker Labs</a>
           </p>
         </li>
-        <li>
+        <li class="listedpadding">
           <p>
             The links in this list should have a <code>background-color</code>
             of yellow when hovered and red when active. This shouldn't affect the links
@@ -173,11 +174,11 @@
           </p>
 
           <ul>
-            <li><a href="#">Subitem 001</a></li>
-            <li><a href="#">Subitem 002</a></li>
-            <li><a href="#">Subitem 003</a></li>
-            <li><a href="#">Subitem 004</a></li>
-            <li><a href="#">Subitem 005</a></li>
+            <li><a class="linkhover2" href="#">Subitem 001</a></li>
+            <li><a class="linkhover2" href="#">Subitem 002</a></li>
+            <li><a class="linkhover2" href="#">Subitem 003</a></li>
+            <li><a class="linkhover2" href="#">Subitem 004</a></li>
+            <li><a class="linkhover2" href="#">Subitem 005</a></li>
           </ul>
         </li>
       </ol>
